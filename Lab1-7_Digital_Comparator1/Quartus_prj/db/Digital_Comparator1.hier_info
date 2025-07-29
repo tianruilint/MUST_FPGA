@@ -1,0 +1,10 @@
+|Digital_Comparator1
+in1 => LessThan0.IN1
+in1 => always0.IN0
+in2 => LessThan0.IN2
+in2 => always0.IN1
+less << LessThan0.DB_MAX_OUTPUT_PORT_TYPE
+greater << greater.DB_MAX_OUTPUT_PORT_TYPE
+equal << equal.DB_MAX_OUTPUT_PORT_TYPE
+
+

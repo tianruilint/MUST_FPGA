@@ -1,0 +1,94 @@
+m255
+K4
+z2
+Z0 !s12c _opt1
+Z1 !s99 nomlopt
+R0
+R1
+R0
+R1
+R0
+R1
+!s12c _opt
+R1
+!s11f vlog 2023.3 2023.07, Jul 17 2023
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z2 dD:/FPGA/Lab2/flip_flop/Sim/Questa
+T_opt
+!s110 1729688293
+V9Wc3b25bBbg5oFBF59<Y13
+Z3 04 12 4 work tb_flip_flop fast 0
+=1-088fc36aee5d-6718f2e3-3a1-a890
+R1
+Z4 !s12b OEM100
+Z5 !s124 OEM10U2 
+Z6 o-quiet -auto_acc_if_foreign -work work -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work +acc
+Z7 tCvgOpt 0
+n@_opt
+Z8 OL;O;2023.3;77
+R2
+T_opt1
+!s110 1730215777
+VPkaNW1<azAREH34fZ08DS3
+R3
+=1-088fc36aee5d-6720ff5f-3ba-84e4
+R1
+R4
+R5
+R6
+R7
+n@_opt1
+R8
+vasy_flip_flop
+2D:/FPGA/Lab2/flip_flop/RTL/asy_flip_flop.v
+!s110 1730215773
+!i10b 1
+!s100 zkio^mc<5@[;?F0cNzVhT3
+INC993YS`FQ04hM5DMIY]z0
+R2
+w1730150240
+8D:/FPGA/Lab2/flip_flop/RTL/asy_flip_flop.v
+FD:/FPGA/Lab2/flip_flop/RTL/asy_flip_flop.v
+!i122 0
+L0 1 15
+Z9 VDg1SIo80bB@j0V0VzS_@n1
+Z10 OL;L;2023.3;77
+r1
+!s85 0
+31
+Z11 !s108 1730215773.000000
+!s107 D:/FPGA/Lab2/flip_flop/RTL/asy_flip_flop.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/FPGA/Lab2/flip_flop/RTL|D:/FPGA/Lab2/flip_flop/RTL/asy_flip_flop.v|
+!i113 0
+Z12 o-vlog01compat -work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+!s92 -vlog01compat -work work +incdir+D:/FPGA/Lab2/flip_flop/RTL -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R7
+vtb_flip_flop
+2D:/FPGA/Lab2/flip_flop/Quartus_prj/../Sim/tb_flip_flop.v
+!s110 1730215774
+!i10b 1
+!s100 3mHGaNj4[NC9PTC432dOK0
+IOQPES4;aNk@4I4n2D75JO2
+R2
+w1730215646
+8D:/FPGA/Lab2/flip_flop/Quartus_prj/../Sim/tb_flip_flop.v
+FD:/FPGA/Lab2/flip_flop/Quartus_prj/../Sim/tb_flip_flop.v
+!i122 1
+L0 2 41
+R9
+R10
+r1
+!s85 0
+31
+R11
+!s107 D:/FPGA/Lab2/flip_flop/Quartus_prj/../Sim/tb_flip_flop.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/FPGA/Lab2/flip_flop/Quartus_prj/../Sim|D:/FPGA/Lab2/flip_flop/Quartus_prj/../Sim/tb_flip_flop.v|
+!i113 0
+R12
+!s92 -vlog01compat -work work +incdir+D:/FPGA/Lab2/flip_flop/Quartus_prj/../Sim -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R7

@@ -1,0 +1,193 @@
+m255
+K4
+z2
+!s12c _opt
+Z0 !s99 nomlopt
+!s11f vlog 2023.3 2023.07, Jul 17 2023
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 dD:/FPGA/Lab5/VGA_ROM/sim/Questa
+T_opt
+!s110 1732653942
+VKdoMWVDkjFEk?M9933K122
+04 14 4 work tb_vga_rom_pic fast 0
+=1-088fc36aee5d-67463374-200-3680
+R0
+!s12b OEM100
+!s124 OEM10U6 
+o-quiet -auto_acc_if_foreign -work work -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work +acc
+Z2 tCvgOpt 0
+n@_opt
+OL;O;2023.3;77
+vclk_gen
+2D:/FPGA/Lab5/VGA_ROM/quarts_prj/ip_core/clk_gen/clk_gen.v
+Z3 !s110 1732653934
+!i10b 1
+!s100 ifhShLajK5[b`XbbEH2UB3
+I`6HNFP:0on3g8[;D1d8102
+R1
+w1732104735
+8D:/FPGA/Lab5/VGA_ROM/quarts_prj/ip_core/clk_gen/clk_gen.v
+FD:/FPGA/Lab5/VGA_ROM/quarts_prj/ip_core/clk_gen/clk_gen.v
+!i122 0
+L0 40 124
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+Z5 OL;L;2023.3;77
+r1
+!s85 0
+31
+!s108 1732653933.000000
+!s107 D:/FPGA/Lab5/VGA_ROM/quarts_prj/ip_core/clk_gen/clk_gen.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/FPGA/Lab5/VGA_ROM/quarts_prj/ip_core/clk_gen|D:/FPGA/Lab5/VGA_ROM/quarts_prj/ip_core/clk_gen/clk_gen.v|
+!i113 0
+Z6 o-vlog01compat -work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+!s92 -vlog01compat -work work +incdir+D:/FPGA/Lab5/VGA_ROM/quarts_prj/ip_core/clk_gen -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+vclk_gen_altpll
+2D:/FPGA/Lab5/VGA_ROM/quarts_prj/db/clk_gen_altpll.v
+Z7 !s110 1732653937
+!i10b 1
+!s100 iK=4CA=J8^HIzAa5Kc?hj0
+IkDn`@^@FFKafVTZ[NDg;?0
+R1
+w1732104873
+8D:/FPGA/Lab5/VGA_ROM/quarts_prj/db/clk_gen_altpll.v
+FD:/FPGA/Lab5/VGA_ROM/quarts_prj/db/clk_gen_altpll.v
+!i122 5
+L0 31 79
+R4
+R5
+r1
+!s85 0
+31
+Z8 !s108 1732653937.000000
+!s107 D:/FPGA/Lab5/VGA_ROM/quarts_prj/db/clk_gen_altpll.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/FPGA/Lab5/VGA_ROM/quarts_prj/db|D:/FPGA/Lab5/VGA_ROM/quarts_prj/db/clk_gen_altpll.v|
+!i113 0
+R6
+!s92 -vlog01compat -work work +incdir+D:/FPGA/Lab5/VGA_ROM/quarts_prj/db -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+vrom_pic
+2D:/FPGA/Lab5/VGA_ROM/quarts_prj/ip_core/rom_pic/rom_pic.v
+R3
+!i10b 1
+!s100 BNTEEXgAJH:fzGg?lH]f70
+IYZ3PHEgjzWIBQoW1mi=?U1
+R1
+w1640252100
+8D:/FPGA/Lab5/VGA_ROM/quarts_prj/ip_core/rom_pic/rom_pic.v
+FD:/FPGA/Lab5/VGA_ROM/quarts_prj/ip_core/rom_pic/rom_pic.v
+!i122 1
+L0 39 64
+R4
+R5
+r1
+!s85 0
+31
+!s108 1732653934.000000
+!s107 D:/FPGA/Lab5/VGA_ROM/quarts_prj/ip_core/rom_pic/rom_pic.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/FPGA/Lab5/VGA_ROM/quarts_prj/ip_core/rom_pic|D:/FPGA/Lab5/VGA_ROM/quarts_prj/ip_core/rom_pic/rom_pic.v|
+!i113 0
+R6
+!s92 -vlog01compat -work work +incdir+D:/FPGA/Lab5/VGA_ROM/quarts_prj/ip_core/rom_pic -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+vtb_vga_rom_pic
+2D:/FPGA/Lab5/VGA_ROM/quarts_prj/../sim/tb_vga_rom_pic.v
+R7
+!i10b 1
+!s100 <6Qf<QI[`2m;6`CdAmRZc3
+INkjQ@bL?cl14b04CQlfFW3
+R1
+w1732653541
+8D:/FPGA/Lab5/VGA_ROM/quarts_prj/../sim/tb_vga_rom_pic.v
+FD:/FPGA/Lab5/VGA_ROM/quarts_prj/../sim/tb_vga_rom_pic.v
+!i122 6
+L0 2 39
+R4
+R5
+r1
+!s85 0
+31
+R8
+!s107 D:/FPGA/Lab5/VGA_ROM/quarts_prj/../sim/tb_vga_rom_pic.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/FPGA/Lab5/VGA_ROM/quarts_prj/../sim|D:/FPGA/Lab5/VGA_ROM/quarts_prj/../sim/tb_vga_rom_pic.v|
+!i113 0
+R6
+!s92 -vlog01compat -work work +incdir+D:/FPGA/Lab5/VGA_ROM/quarts_prj/../sim -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+vvga_ctrl
+2D:/FPGA/Lab5/VGA_ROM/rtl/vga_ctrl.v
+Z9 !s110 1732653936
+!i10b 1
+!s100 dIkJ85h]7fPaiO_Qbo^Rm2
+I2@52f7]BNXa=Gg?92IEi23
+R1
+w1732648313
+8D:/FPGA/Lab5/VGA_ROM/rtl/vga_ctrl.v
+FD:/FPGA/Lab5/VGA_ROM/rtl/vga_ctrl.v
+!i122 4
+L0 1 77
+R4
+R5
+r1
+!s85 0
+31
+!s108 1732653936.000000
+!s107 D:/FPGA/Lab5/VGA_ROM/rtl/vga_ctrl.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/FPGA/Lab5/VGA_ROM/rtl|D:/FPGA/Lab5/VGA_ROM/rtl/vga_ctrl.v|
+!i113 0
+R6
+Z10 !s92 -vlog01compat -work work +incdir+D:/FPGA/Lab5/VGA_ROM/rtl -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+vvga_pic
+2D:/FPGA/Lab5/VGA_ROM/rtl/vga_pic.v
+R9
+!i10b 1
+!s100 Bf<KY3SXX8YfBK9BOPG^n1
+IG]cb>@zln]f7Nl2]Si3572
+R1
+w1732648007
+8D:/FPGA/Lab5/VGA_ROM/rtl/vga_pic.v
+FD:/FPGA/Lab5/VGA_ROM/rtl/vga_pic.v
+!i122 3
+L0 1 88
+R4
+R5
+r1
+!s85 0
+31
+Z11 !s108 1732653935.000000
+!s107 D:/FPGA/Lab5/VGA_ROM/rtl/vga_pic.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/FPGA/Lab5/VGA_ROM/rtl|D:/FPGA/Lab5/VGA_ROM/rtl/vga_pic.v|
+!i113 0
+R6
+R10
+R2
+vvga_rom_pic
+2D:/FPGA/Lab5/VGA_ROM/rtl/vga_rom_pic.v
+!s110 1732653935
+!i10b 1
+!s100 HZeh^DC5];JdDLEcHU9H71
+I=;><=KkmDF5JkSW:H;h]L2
+R1
+w1732647719
+8D:/FPGA/Lab5/VGA_ROM/rtl/vga_rom_pic.v
+FD:/FPGA/Lab5/VGA_ROM/rtl/vga_rom_pic.v
+!i122 2
+L0 1 48
+R4
+R5
+r1
+!s85 0
+31
+R11
+!s107 D:/FPGA/Lab5/VGA_ROM/rtl/vga_rom_pic.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/FPGA/Lab5/VGA_ROM/rtl|D:/FPGA/Lab5/VGA_ROM/rtl/vga_rom_pic.v|
+!i113 0
+R6
+R10
+R2

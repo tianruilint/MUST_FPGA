@@ -1,0 +1,16 @@
+Fitter Status : Successful - Thu Dec 26 05:52:13 2024
+Quartus Prime Version : 23.1std.1 Build 993 05/14/2024 SC Lite Edition
+Revision Name : snake
+Top-level Entity Name : snake_top
+Family : Cyclone IV E
+Device : EP4CE10F17C8
+Timing Models : Final
+Total logic elements : 2,901 / 10,320 ( 28 % )
+    Total combinational functions : 2,856 / 10,320 ( 28 % )
+    Dedicated logic registers : 785 / 10,320 ( 8 % )
+Total registers : 785
+Total pins : 29 / 180 ( 16 % )
+Total virtual pins : 0
+Total memory bits : 262,144 / 423,936 ( 62 % )
+Embedded Multiplier 9-bit elements : 0 / 46 ( 0 % )
+Total PLLs : 1 / 2 ( 50 % )

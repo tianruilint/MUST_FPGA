@@ -1,0 +1,7 @@
+
+State Machine - |intermediate_VM|state
+Name state.ONE_HALF state.ONE state.HALF state.IDLE 
+state.IDLE 0 0 0 0 
+state.HALF 0 0 1 1 
+state.ONE 0 1 0 1 
+state.ONE_HALF 1 0 0 1 

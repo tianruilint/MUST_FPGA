@@ -1,0 +1,67 @@
+# Reading pref.tcl
+# //  Questa Intel Starter FPGA Edition-64
+# //  Version 2023.3 win64 Jul 17 2023
+# //
+# //  Copyright 1991-2023 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# do vm_Refund_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Questa Intel Starter FPGA Edition-64 vmap 2023.3 Lib Mapping Utility 2023.07 Jul 17 2023
+# vmap work rtl_work 
+# Copying e:/intelfpga_lite/23.1std/questa_fse/win64/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+D:/FPGA/Lab3/Vending\ Machine\ with\ Refund\ Function/RTL {D:/FPGA/Lab3/Vending Machine with Refund Function/RTL/vm_Refund.v}
+# Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 00:05:00 on Nov 11,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/FPGA/Lab3/Vending Machine with Refund Function/RTL" D:/FPGA/Lab3/Vending Machine with Refund Function/RTL/vm_Refund.v 
+# -- Compiling module vm_Refund
+# 
+# Top level modules:
+# 	vm_Refund
+# End time: 00:05:00 on Nov 11,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+D:/FPGA/Lab3/Vending\ Machine\ with\ Refund\ Function/Quartus_prj/../Sim {D:/FPGA/Lab3/Vending Machine with Refund Function/Quartus_prj/../Sim/tb_vm_Refund.v}
+# Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 00:05:00 on Nov 11,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/FPGA/Lab3/Vending Machine with Refund Function/Quartus_prj/../Sim" D:/FPGA/Lab3/Vending Machine with Refund Function/Quartus_prj/../Sim/tb_vm_Refund.v 
+# -- Compiling module tb_vm_Refund
+# 
+# Top level modules:
+# 	tb_vm_Refund
+# End time: 00:05:00 on Nov 11,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  tb_vm_Refund
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs=""+acc"" tb_vm_Refund 
+# Start time: 00:05:01 on Nov 11,2024
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
+# ** Note: (vopt-143) Recognized 1 FSM in module "vm_Refund(fast)".
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading work.tb_vm_Refund(fast)
+# Loading work.vm_Refund(fast)
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run 10 us
+# Can't move the Now cursor.
+# End time: 00:37:14 on Nov 11,2024, Elapsed time: 0:32:13
+# Errors: 0, Warnings: 1

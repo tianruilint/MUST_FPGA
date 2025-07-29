@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Sun Nov 10 20:58:25 2024
+Quartus Prime Version : 23.1std.1 Build 993 05/14/2024 SC Lite Edition
+Revision Name : intermediate_VM
+Top-level Entity Name : intermediate_VM
+Family : Cyclone IV E
+Total logic elements : 9
+    Total combinational functions : 9
+    Dedicated logic registers : 6
+Total registers : 6
+Total pins : 6
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0

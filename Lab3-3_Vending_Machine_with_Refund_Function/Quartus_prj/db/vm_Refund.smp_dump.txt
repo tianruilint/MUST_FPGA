@@ -1,0 +1,14 @@
+
+State Machine - |vm_Refund|state
+Name state.ONE_HALF state.ONE state.HALF state.IDLE 
+state.IDLE 0 0 0 0 
+state.HALF 0 0 1 1 
+state.ONE 0 1 0 1 
+state.ONE_HALF 1 0 0 1 
+
+State Machine - |vm_Refund|state_saved
+Name state_saved.ONE_HALF state_saved.ONE state_saved.HALF state_saved.IDLE 
+state_saved.IDLE 0 0 0 0 
+state_saved.HALF 0 0 1 1 
+state_saved.ONE 0 1 0 1 
+state_saved.ONE_HALF 1 0 0 1 

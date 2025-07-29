@@ -1,0 +1,37 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "po_money_half",
+					"strict" : false
+				},
+				{
+					"name" : "po_money_one",
+					"strict" : false
+				},
+				{
+					"name" : "po_cola",
+					"strict" : false
+				},
+				{
+					"name" : "sys_rst_n",
+					"strict" : false
+				},
+				{
+					"name" : "pi_money_half",
+					"strict" : false
+				},
+				{
+					"name" : "pi_money_one",
+					"strict" : false
+				},
+				{
+					"name" : "sys_clk",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

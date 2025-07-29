@@ -1,0 +1,27 @@
+|vm_Refund
+sys_clk => po_money[0].CLK
+sys_clk => po_money[1].CLK
+sys_clk => po_cola~reg0.CLK
+sys_clk => pi_money_saved[0].CLK
+sys_clk => pi_money_saved[1].CLK
+sys_clk => state~1.DATAIN
+sys_clk => state_saved~9.DATAIN
+sys_rst_n => state_saved.OUTPUTSELECT
+sys_rst_n => state_saved.OUTPUTSELECT
+sys_rst_n => state_saved.OUTPUTSELECT
+sys_rst_n => state_saved.OUTPUTSELECT
+sys_rst_n => po_money[0].ALOAD
+sys_rst_n => po_money[1].ALOAD
+sys_rst_n => po_cola~reg0.ALOAD
+sys_rst_n => state~3.DATAIN
+pi_money_one => pi_money_saved[1].DATAIN
+pi_money_one => Equal2.IN1
+pi_money_one => Equal4.IN0
+pi_money_half => pi_money_saved[0].DATAIN
+pi_money_half => Equal2.IN0
+pi_money_half => Equal4.IN1
+po_money_half << po_money[0].DB_MAX_OUTPUT_PORT_TYPE
+po_money_one << po_money[1].DB_MAX_OUTPUT_PORT_TYPE
+po_cola << po_cola~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+

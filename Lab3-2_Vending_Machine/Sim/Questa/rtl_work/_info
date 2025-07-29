@@ -1,0 +1,75 @@
+m255
+K4
+z2
+!s12c _opt
+Z0 !s99 nomlopt
+!s11f vlog 2023.3 2023.07, Jul 17 2023
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 dD:/FPGA/Lab3/Vending Machine in Lecture Slide/Sim/Questa
+T_opt
+!s110 1731248373
+VNmIoRMXG6o]j0mNTPB^nO0
+04 18 4 work tb_intermediate_VM fast 0
+=1-088fc36aee5d-6730c0f2-106-7cb8
+R0
+!s12b OEM100
+!s124 OEM10U2 
+o-quiet -auto_acc_if_foreign -work work -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work +acc
+Z2 tCvgOpt 0
+n@_opt
+OL;O;2023.3;77
+vintermediate_VM
+2D:/FPGA/Lab3/Vending Machine in Lecture Slide/RTL/intermediate_VM.v
+Z3 !s110 1731248365
+!i10b 1
+!s100 zW@PR;nbBP5IJ8`1=R><13
+I>WSh]UiXb2Y<bo1NV2RdM1
+R1
+w1731219895
+8D:/FPGA/Lab3/Vending Machine in Lecture Slide/RTL/intermediate_VM.v
+FD:/FPGA/Lab3/Vending Machine in Lecture Slide/RTL/intermediate_VM.v
+!i122 0
+L0 1 70
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+Z5 OL;L;2023.3;77
+r1
+!s85 0
+31
+!s108 1731248364.000000
+!s107 D:/FPGA/Lab3/Vending Machine in Lecture Slide/RTL/intermediate_VM.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/FPGA/Lab3/Vending Machine in Lecture Slide/RTL|D:/FPGA/Lab3/Vending Machine in Lecture Slide/RTL/intermediate_VM.v|
+!i113 0
+Z6 o-vlog01compat -work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+!s92 -vlog01compat -work work {+incdir+D:/FPGA/Lab3/Vending Machine in Lecture Slide/RTL} -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+nintermediate_@v@m
+vtb_intermediate_VM
+2D:/FPGA/Lab3/Vending Machine in Lecture Slide/Quartus_prj/../Sim/tb_intermediate_VM.v
+R3
+!i10b 1
+!s100 geR]PcTE^DHhV8L`jRP9]0
+ImiUcTzg3nJDKVA7L85Dod1
+R1
+w1730821624
+8D:/FPGA/Lab3/Vending Machine in Lecture Slide/Quartus_prj/../Sim/tb_intermediate_VM.v
+FD:/FPGA/Lab3/Vending Machine in Lecture Slide/Quartus_prj/../Sim/tb_intermediate_VM.v
+!i122 1
+L0 2 55
+R4
+R5
+r1
+!s85 0
+31
+!s108 1731248365.000000
+!s107 D:/FPGA/Lab3/Vending Machine in Lecture Slide/Quartus_prj/../Sim/tb_intermediate_VM.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/FPGA/Lab3/Vending Machine in Lecture Slide/Quartus_prj/../Sim|D:/FPGA/Lab3/Vending Machine in Lecture Slide/Quartus_prj/../Sim/tb_intermediate_VM.v|
+!i113 0
+R6
+!s92 -vlog01compat -work work {+incdir+D:/FPGA/Lab3/Vending Machine in Lecture Slide/Quartus_prj/../Sim} -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+ntb_intermediate_@v@m

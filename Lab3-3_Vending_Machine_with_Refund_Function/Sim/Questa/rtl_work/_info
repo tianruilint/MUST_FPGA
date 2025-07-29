@@ -1,0 +1,75 @@
+m255
+K4
+z2
+!s12c _opt
+Z0 !s99 nomlopt
+!s11f vlog 2023.3 2023.07, Jul 17 2023
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 dD:/FPGA/Lab3/Vending Machine with Refund Function/Sim/Questa
+T_opt
+!s110 1731254703
+VMLiLWe[NcQg;ZUicS;?HX1
+04 12 4 work tb_vm_Refund fast 0
+=1-088fc36aee5d-6730d9ae-13f-4718
+R0
+!s12b OEM100
+!s124 OEM10U2 
+o-quiet -auto_acc_if_foreign -work work -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work +acc
+Z2 tCvgOpt 0
+n@_opt
+OL;O;2023.3;77
+vtb_vm_Refund
+2D:/FPGA/Lab3/Vending Machine with Refund Function/Quartus_prj/../Sim/tb_vm_Refund.v
+Z3 !s110 1731254700
+!i10b 1
+!s100 lOK0IMZbGaJ]WM8on@LOf3
+I4AZnJ87>aDH^LR[E@C9jV2
+R1
+w1731254666
+8D:/FPGA/Lab3/Vending Machine with Refund Function/Quartus_prj/../Sim/tb_vm_Refund.v
+FD:/FPGA/Lab3/Vending Machine with Refund Function/Quartus_prj/../Sim/tb_vm_Refund.v
+!i122 1
+L0 2 64
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+Z5 OL;L;2023.3;77
+r1
+!s85 0
+31
+Z6 !s108 1731254700.000000
+!s107 D:/FPGA/Lab3/Vending Machine with Refund Function/Quartus_prj/../Sim/tb_vm_Refund.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/FPGA/Lab3/Vending Machine with Refund Function/Quartus_prj/../Sim|D:/FPGA/Lab3/Vending Machine with Refund Function/Quartus_prj/../Sim/tb_vm_Refund.v|
+!i113 0
+Z7 o-vlog01compat -work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+!s92 -vlog01compat -work work {+incdir+D:/FPGA/Lab3/Vending Machine with Refund Function/Quartus_prj/../Sim} -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+ntb_vm_@refund
+vvm_Refund
+2D:/FPGA/Lab3/Vending Machine with Refund Function/RTL/vm_Refund.v
+R3
+!i10b 1
+!s100 UEX:z=IH3_TzQBzaGMm653
+I?4B?A43;>>SenULSgEo=Y1
+R1
+w1731253817
+8D:/FPGA/Lab3/Vending Machine with Refund Function/RTL/vm_Refund.v
+FD:/FPGA/Lab3/Vending Machine with Refund Function/RTL/vm_Refund.v
+!i122 0
+L0 1 114
+R4
+R5
+r1
+!s85 0
+31
+R6
+!s107 D:/FPGA/Lab3/Vending Machine with Refund Function/RTL/vm_Refund.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/FPGA/Lab3/Vending Machine with Refund Function/RTL|D:/FPGA/Lab3/Vending Machine with Refund Function/RTL/vm_Refund.v|
+!i113 0
+R7
+!s92 -vlog01compat -work work {+incdir+D:/FPGA/Lab3/Vending Machine with Refund Function/RTL} -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+nvm_@refund

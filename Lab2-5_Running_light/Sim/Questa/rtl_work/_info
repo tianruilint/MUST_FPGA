@@ -1,0 +1,73 @@
+m255
+K4
+z2
+!s12c _opt
+Z0 !s99 nomlopt
+!s11f vlog 2023.3 2023.07, Jul 17 2023
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 dD:/FPGA/Lab2/Running light/Sim/Questa
+T_opt
+!s110 1730267233
+VUMl]8;X82NOYBPd<F5FMc3
+04 16 4 work tb_running_light fast 0
+=1-088fc36aee5d-6721c85f-da-96b8
+R0
+!s12b OEM100
+!s124 OEM10U2 
+o-quiet -auto_acc_if_foreign -work work -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work +acc
+Z2 tCvgOpt 0
+n@_opt
+OL;O;2023.3;77
+vrunning_light
+2D:/FPGA/Lab2/Running light/RTL/running_light.v
+Z3 !s110 1730267227
+!i10b 1
+!s100 m7_8:n_i[M]PQj2?4VXJl3
+IOoAC0bS0cYngS<I?WB8N92
+R1
+w1730266805
+8D:/FPGA/Lab2/Running light/RTL/running_light.v
+FD:/FPGA/Lab2/Running light/RTL/running_light.v
+!i122 0
+L0 1 30
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+Z5 OL;L;2023.3;77
+r1
+!s85 0
+31
+Z6 !s108 1730267227.000000
+!s107 D:/FPGA/Lab2/Running light/RTL/running_light.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/FPGA/Lab2/Running light/RTL|D:/FPGA/Lab2/Running light/RTL/running_light.v|
+!i113 0
+Z7 o-vlog01compat -work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+!s92 -vlog01compat -work work {+incdir+D:/FPGA/Lab2/Running light/RTL} -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+vtb_running_light
+2D:/FPGA/Lab2/Running light/Quartus_prj/../Sim/tb_running_light.v
+R3
+!i10b 1
+!s100 YXaGDI>DVc7z0?JadO@T_1
+I[83o_VbM?]Sg]h=BK_G``1
+R1
+w1730265108
+8D:/FPGA/Lab2/Running light/Quartus_prj/../Sim/tb_running_light.v
+FD:/FPGA/Lab2/Running light/Quartus_prj/../Sim/tb_running_light.v
+!i122 1
+L0 3 28
+R4
+R5
+r1
+!s85 0
+31
+R6
+!s107 D:/FPGA/Lab2/Running light/Quartus_prj/../Sim/tb_running_light.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/FPGA/Lab2/Running light/Quartus_prj/../Sim|D:/FPGA/Lab2/Running light/Quartus_prj/../Sim/tb_running_light.v|
+!i113 0
+R7
+!s92 -vlog01compat -work work {+incdir+D:/FPGA/Lab2/Running light/Quartus_prj/../Sim} -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
